@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum placeat quidem repudiandae quisquam ut. Quibusdam delectus, ut ratione expedita ad voluptates nemo repellendus quaerat impedit fugiat excepturi suscipit temporibus iusto.</p>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum placeat quidem repudiandae quisquam ut. Quibusdam delectus, ut ratione expedita ad voluptates nemo repellendus quaerat impedit fugiat excepturi suscipit temporibus iusto.</p>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum placeat quidem repudiandae quisquam ut. Quibusdam delectus, ut ratione expedita ad voluptates nemo repellendus quaerat impedit fugiat excepturi suscipit temporibus iusto.</p>
+
+  <div style="height: 100px; background: red"></div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>First</th>
+        <th>Last</th>
+      </tr>
+    </thead>
+    <tbody>
+        @for (var i=0; i<100; i++)
+        {
+            <tr>
+                <td>First @i</td>
+                <td>Last @i</td>
+            </tr>
+        }
+    </tbody>
+  </table>
+</div>
