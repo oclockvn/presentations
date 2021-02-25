@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="dist/reset.css">
   <link rel="stylesheet" href="dist/reveal.css">
   <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+  <style>
+    .text-left {
+      text-align: left;
+    }
+  </style>
 
   <!-- Theme used for syntax highlighted code -->
   <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
@@ -23,11 +28,39 @@
         <div>quang@spiderbox.design</div>
       </section>
       <section>
-        <h3>What is pdf page-break?</h3>
+        <h3>What is page-break?</h3>
+        <div class="fragment fade-left">
+          Ability to control where to bring the content at your cursor to the new page even if the current page still have available spaces
+        </div>
       </section>
       <section>
-        <h3>Why do we need page-break</h3>
-        <p class="fragment">- </p>
+        <h3>Google Docs</h3>
+        <div class="r-stack">
+          <img class="fragment" src="./img/img-1.png">
+          <img class="fragment" src="./img/img-2.png">
+        </div>
+      </section>
+      <section>
+        <h3>Why does it matter?</h3>
+        <div class="r-stack">
+          <p class="fragment fade-down">Control what you want to show in the new page (overflow pages)</p>
+          <img src="./img/img-3.png" alt="" class="fragment fade-up">
+        </div>
+      </section>
+      <section>
+        <h3>Page-break in web development</h3>
+        <div class="fragment text-left" data-fragment-index="1">1. Page-break automatically</div>
+        <div class="fragment text-left" style="margin-left: 2rem;">
+          <ul>
+            <li>1.1. Break inside table</li>
+          </ul>
+        </div>
+        <div class="fragment text-left" style="margin-left: 2rem;">
+          <ul>
+            <li>1.2. Break outside table</li>
+          </ul>
+        </div>
+        <div class="fragment text-left" data-fragment-index="2">2. Page-break manually</div>
       </section>
       <section>
         <section>nested </section>
